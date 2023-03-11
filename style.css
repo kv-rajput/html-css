@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.root{
+    overflow: hidden;
+}
+.header{
+    width: 100vw;
+    padding: 20px;
+    margin: 2rem 0;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-side{
+    width: 300px;
+
+}
+.right-side{
+    width: 300px;
+  }
+  .info-body{
+    width: 100vw;
+    padding: 20px; 
+  }
+  .body-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .info-left{
+    width: 300px;
+  }
+  .info-right{
+    width: 300px;
+  }
+  .line{
+    margin: 10px 0  ;
+    color: #655DBB;
+  }
+  .skill,.certificate,.educational{
+    margin-top: 70px;
+  }
+  .name{
+    color: #655DBB;
+  }
+  
+  
